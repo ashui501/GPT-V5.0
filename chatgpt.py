@@ -105,27 +105,28 @@ HELP_BACK = [
 
   
 #         start
-@Mukesh.on_message(filters.command(["start",f"start@{BOT_USERNAME}"]))
+@Mukesh.on_message(filters.command(["start", f"start@{BOT_USERNAME}"]))
 async def restart(client, m: Message):
-accha = await message.reply_text(text='𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜')
-await asyncio.sleep(0.2)
-await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜.')
-await asyncio.sleep(0.2)
-await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜..')
-await asyncio.sleep(0.2)
-await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜...')
-await asyncio.sleep(0.2)
-await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜....')
-await asyncio.sleep(0.2)
-await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙚𝙙')
-await accha.delete()
-await m.reply_photo(
-    photo=START_IMG,
-    caption=START,
-    reply_markup=InlineKeyboardMarkup(MAIN),
-)
+    accha = await m.reply_text(text='𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜')
+    await asyncio.sleep(0.2)
+    await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜.')
+    await asyncio.sleep(0.2)
+    await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜..')
+    await asyncio.sleep(0.2)
+    await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜...')
+    await asyncio.sleep(0.2)
+    await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜....')
+    await asyncio.sleep(0.2)
+    await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙚𝙙')
+    await accha.delete()
 
-await asyncio.sleep(0.3)
+    await m.reply_photo(
+        photo=START_IMG,
+        caption=START,
+        reply_markup=InlineKeyboardMarkup(MAIN),
+    )
+
+    await asyncio.sleep(0.3)
 
 
         
