@@ -121,8 +121,9 @@ await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙚𝙙')
 await accha.delete()
 
         umm = await m.reply_sticker(
-                  sticker = STKR,
-        )
+    sticker=STKR,
+)
+
         await asyncio.sleep(0.3)
         await umm.delete()
         await m.reply_photo(
