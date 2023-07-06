@@ -162,17 +162,23 @@ async def source(bot, m):
 @Mukesh.on_message(filters.command(["ping","alive"], prefixes=["","+", "/", "-", "?", "$", "&","."]))
 async def ping(client, message: Message):
         start = datetime.now()
-        t = "ριиgιиg..."
-        txxt = await message.reply(t)
-        await asyncio.sleep(0.25)
-        await txxt.edit_text("ριиgιиg.....")
-        await asyncio.sleep(0.35)
+        t = "𝙋𝙞𝙣𝙜"
+txxt = await message.reply(t)
+await asyncio.sleep(0.25)
+await txxt.edit_text("𝙋𝙞𝙣𝙜..𝘾𝙤𝙢𝙞𝙣𝙜")
+await asyncio.sleep(0.35)
+await txxt.edit_text("𝙋𝙞𝙣𝙜...𝙒𝙖𝙞𝙩")
+await asyncio.sleep(0.35)
+await txxt.edit_text("𝙋𝙞𝙣𝙜....𝘾𝙖𝙡𝙘𝙪𝙡𝙖𝙩𝙚𝙙")
+await asyncio.sleep(0.35)
+await txxt.edit_text("𝙎𝙝𝙤𝙬𝙞𝙣𝙜..... 𝙍𝙚𝙨𝙪𝙡𝙩𝙨")
+
         await txxt.delete()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=START_IMG,
-                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME}) ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [ᴍᴜᴋᴇsʜ](https://t.me/itz_legend_coder)||",
+                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME}) ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [〄 ꫝຮuℝⱥ ࿐ཧᎠᥲᥲꪀᥲꪜ┊༒ ¤๋ࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧ͜͡](https://t.me/Daanav_asura)||",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
