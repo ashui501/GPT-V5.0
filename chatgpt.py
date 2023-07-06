@@ -107,7 +107,7 @@ HELP_BACK = [
 #         start
 @Mukesh.on_message(filters.command(["start",f"start@{BOT_USERNAME}"]))
 async def restart(client, m: Message):
-        accha = await message.reply_text(text='𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜')
+accha = await message.reply_text(text='𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜')
 await asyncio.sleep(0.2)
 await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜.')
 await asyncio.sleep(0.2)
