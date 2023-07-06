@@ -167,7 +167,13 @@ await txxt.edit_text("𝙋𝙞𝙣𝙜....𝘾𝙖𝙡𝙘𝙪𝙡𝙖𝙩𝙚�
 await asyncio.sleep(0.35)
 await txxt.edit_text("𝙎𝙝𝙤𝙬𝙞𝙣𝙜..... 𝙍𝙚𝙨𝙪𝙡𝙩𝙨")
 await txxt.delete()
+now = datetime.now()
+    current_time = now.strftime("%H:%M:%S")
+    current_date = now.strftime("%Y-%m-%d")
 
+    # Respond with the ping message including time and date
+    response = f"Pong! Current time: {current_time}, Current date: {current_date}"
+    message.reply_text(response)
 
         
 #  main   
