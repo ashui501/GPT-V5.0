@@ -85,7 +85,7 @@ PNG_BTN = [
          ),
      ],
      [
-         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", 
+         InlineKeyboardButton(text="𓆩⌁ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 ⌁𓆪", 
                               url=f"https://t.me/{SUPPORT_GRP}",
          ),
      ],
@@ -95,17 +95,17 @@ HELP_READ = "𝙃𝙚𝙮 𝙃𝙚𝙧𝙚 𝙞𝙨 𝙃𝙚𝙡𝙥 𝙈𝙚�
 
 𝙐𝙨𝙖𝙜𝙚 - /𝙘𝙝𝙖𝙩𝙜𝙥𝙩 ┌𝙌𝙪𝙚𝙧𝙮┐
 
-𝙀𝙭𝙥 - /𝙘𝙝𝙖𝙩𝙜𝙥𝙩 𝙃𝙤𝙬 𝙏𝙤 𝙈𝙖𝙠𝙚 𝘼 𝙎𝙞𝙢𝙥𝙡𝙚 𝙋𝙖𝙥𝙚𝙧 𝘽𝙤𝙖𝙩  \n\n **𝘼𝙡𝙞𝙫𝙚 - 𝘾𝙝𝙚𝙘𝙠 𝘽𝙤𝙩 𝙄𝙨 
+𝙀𝙭𝙥 - /𝙘𝙝𝙖𝙩𝙜𝙥𝙩 𝙃𝙤𝙬 𝙏𝙤 𝙈𝙖𝙠𝙚 𝘼 𝙎𝙞𝙢𝙥𝙡𝙚 𝙋𝙖𝙥𝙚𝙧 𝘽𝙤𝙖𝙩  \n\n 𝘼𝙡𝙞𝙫𝙚 - 𝘾𝙝𝙚𝙘𝙠 𝘽𝙤𝙩 𝙄𝙨 
 𝙒𝙤𝙧𝙠𝙞𝙣𝙜 𝙊𝙧 𝙉𝙤𝙩 
 
-(𝘾𝙤𝙢𝙢𝙖𝙣𝙙) - /𝙥𝙞𝙣𝙜 , /𝙖𝙡𝙞𝙫𝙚**\n\n𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 :- @TheVepeX**"
+(𝘾𝙤𝙢𝙢𝙖𝙣𝙙) - /𝙥𝙞𝙣𝙜 , /𝙖𝙡𝙞𝙫𝙚\n\n𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 :- @TheVepeX"
 HELP_BACK = [
      [
-           InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ ", url=f"https://t.me/{UPDATE_CHNL}/528"),
+           InlineKeyboardButton(text="𓆩⌁ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 ⌁𓆪 ", url=f"https://t.me/{SUPPORT_GRP}",
            
      ],
     [
-           InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK"),
+           InlineKeyboardButton(text="𝘽𝙖𝙘𝙠 ", callback_data="HELP_BACK"),
     ],
 ]
 
@@ -113,12 +113,18 @@ HELP_BACK = [
 #         start
 @Mukesh.on_message(filters.command(["start",f"start@{BOT_USERNAME}"]))
 async def restart(client, m: Message):
-        accha = await m.reply_text(
-                        text = f"{g}")
-        await asyncio.sleep(0.2)
-        await accha.edit("ᴘɪɴɢ ᴘᴏɴɢ ꜱᴛᴀʀᴛɪɴɢ..")
-        await asyncio.sleep(0.2)
-        await accha.delete()
+        accha = await message.reply_text(text='𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜')
+    await asyncio.sleep(0.2)
+    await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜.')
+    await asyncio.sleep(0.2)
+    await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜..')
+    await asyncio.sleep(0.2)
+    await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜...')
+    await asyncio.sleep(0.2)
+    await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜....')
+    await asyncio.sleep(0.2)
+    await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙚𝙙')
+    await accha.delete()
         umm = await m.reply_sticker(
                   sticker = STKR,
         )
