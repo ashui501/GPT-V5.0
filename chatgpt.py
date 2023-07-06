@@ -119,9 +119,6 @@ await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜....')
 await asyncio.sleep(0.2)
 await accha.edit_text('𝙎𝙩𝙖𝙧𝙩𝙚𝙙')
 await accha.delete()
-umm = await message.reply_sticker(sticker=STKR)                                    
-      await asyncio.sleep(0.3)
-await umm.delete()
 await m.reply_photo(
     photo=START_IMG,
     caption=START,
