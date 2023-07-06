@@ -91,7 +91,14 @@ PNG_BTN = [
      ],
 ]
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', url=f"{SOURCE}")]])
-HELP_READ = "➻ ᴜsᴇ /chatgpt write a simple flask app in python.  \n\n **➻ ᴜsᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @mr_sukkun**"
+HELP_READ = "𝙃𝙚𝙮 𝙃𝙚𝙧𝙚 𝙞𝙨 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪
+
+𝙐𝙨𝙖𝙜𝙚 - /𝙘𝙝𝙖𝙩𝙜𝙥𝙩 ┌𝙌𝙪𝙚𝙧𝙮┐
+
+𝙀𝙭𝙥 - /𝙘𝙝𝙖𝙩𝙜𝙥𝙩 𝙃𝙤𝙬 𝙏𝙤 𝙈𝙖𝙠𝙚 𝘼 𝙎𝙞𝙢𝙥𝙡𝙚 𝙋𝙖𝙥𝙚𝙧 𝘽𝙤𝙖𝙩  \n\n **𝘼𝙡𝙞𝙫𝙚 - 𝘾𝙝𝙚𝙘𝙠 𝘽𝙤𝙩 𝙄𝙨 
+𝙒𝙤𝙧𝙠𝙞𝙣𝙜 𝙊𝙧 𝙉𝙤𝙩 
+
+(𝘾𝙤𝙢𝙢𝙖𝙣𝙙) - /𝙥𝙞𝙣𝙜 , /𝙖𝙡𝙞𝙫𝙚**\n\n𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 :- @TheVepeX**"
 HELP_BACK = [
      [
            InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ ", url=f"https://t.me/{UPDATE_CHNL}/528"),
