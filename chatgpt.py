@@ -94,14 +94,14 @@ SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', 
 HELP_READ = "𝙃𝙀𝙔 𝙃𝙀𝙍𝙀 𝙄𝙎 𝙃𝙀𝙇𝙋 𝙈𝙀𝙉𝙐\n\n𝙐𝙎𝘼𝙂𝙀 - /𝙘𝙝𝙖𝙩𝙜𝙥𝙩 ┌𝙌𝙪𝙚𝙧𝙮┐\n\n𝙀𝙭𝙥 - /𝙘𝙝𝙖𝙩𝙜𝙥𝙩 𝙃𝙤𝙬 𝙏𝙤 𝙈𝙖𝙠𝙚 𝘼 𝙎𝙞𝙢𝙥𝙡𝙚 𝙋𝙖𝙥𝙚𝙧 𝘽𝙤𝙖𝙩  \n\n 𝘼𝙡𝙞𝙫𝙚 - 𝘾𝙝𝙚𝙘𝙠 𝘽𝙤𝙩 𝙄𝙨 𝙒𝙤𝙧𝙠𝙞𝙣𝙜 𝙊𝙧 𝙉𝙤𝙩\n\n(𝘾𝙤𝙢𝙢𝙖𝙣𝙙) - /𝙥𝙞𝙣𝙜 , /𝙖𝙡𝙞𝙫𝙚\n\n𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 :- @𝙏𝙝𝙚𝙑𝙚𝙥𝙚𝙓"
 
 HELP_BACK = [
-     [
-           InlineKeyboardButton(text="𓆩⌁ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 ⌁𓆪 ", url=f"https://t.me/{SUPPORT_GRP}",
-           
-     ],
     [
-           InlineKeyboardButton(text="𝘽𝙖𝙘𝙠 ", callback_data="HELP_BACK"),
+        InlineKeyboardButton(text="𓆩⌁ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 ⌁𓆪", url=f"https://t.me/{SUPPORT_GRP}"),
+    ],
+    [
+        InlineKeyboardButton(text="𝘽𝙖𝙘𝙠", callback_data="HELP_BACK"),
     ],
 ]
+
 
   
 #         start
