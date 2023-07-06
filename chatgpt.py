@@ -166,16 +166,16 @@ await asyncio.sleep(0.35)
 await txxt.edit_text("𝙋𝙞𝙣𝙜....𝘾𝙖𝙡𝙘𝙪𝙡𝙖𝙩𝙚𝙙")
 await asyncio.sleep(0.35)
 await txxt.edit_text("𝙎𝙝𝙤𝙬𝙞𝙣𝙜..... 𝙍𝙚𝙨𝙪𝙡𝙩𝙨")
-
-        await txxt.delete()
+await txxt.delete()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await message.reply_photo(
+ await message.reply_photo(
                              photo=START_IMG,
                              caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME}) ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [〄 ꫝຮuℝⱥ ࿐ཧᎠᥲᥲꪀᥲꪜ┊༒ ¤๋ࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧ͜͡](https://t.me/Daanav_asura)||",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
-       )
+        ) 
 
+        
 #  main   
 openai.api_key = OPENAI_KEY
 @Mukesh.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["","+", ".", "/", "-", "?", "$","#","&"]))
