@@ -91,7 +91,7 @@ PNG_BTN = [
      ],
 ]
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', url=f"{SOURCE}")]])
-HELP_READ = "𝙃𝙚𝙮 𝙃𝙚𝙧𝙚 𝙞𝙨 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪
+HELP_READ = "𝙃𝙚𝙮 𝙃𝙚𝙧𝙚 𝙞𝙨 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪\n\n
 
 𝙐𝙨𝙖𝙜𝙚 - /𝙘𝙝𝙖𝙩𝙜𝙥𝙩 ┌𝙌𝙪𝙚𝙧𝙮┐
 
