@@ -154,29 +154,28 @@ async def source(bot, m):
     
     await m.reply_photo(START_IMG, caption=SOURCE_TEXT, reply_markup=SOURCE_BUTTONS)
 #  alive
-@Mukesh.on_message(filters.command(["ping","alive"], prefixes=["","+", "/", "-", "?", "$", "&","."]))
+@Mukesh.on_message(filters.command(["ping", "alive"], prefixes=["", "+", "/", "-", "?", "$", "&", "."]))
 async def ping(client, message: Message):
-        start = datetime.now()
-        t = "𝙋𝙞𝙣𝙜"
-txxt = await message.reply(t)
-await asyncio.sleep(0.25)
-await txxt.edit_text("𝙋𝙞𝙣𝙜..𝘾𝙤𝙢𝙞𝙣𝙜")
-await asyncio.sleep(0.35)
-await txxt.edit_text("𝙋𝙞𝙣𝙜...𝙒𝙖𝙞𝙩")
-await asyncio.sleep(0.35)
-await txxt.edit_text("𝙋𝙞𝙣𝙜....𝘾𝙖𝙡𝙘𝙪𝙡𝙖𝙩𝙚𝙙")
-await asyncio.sleep(0.35)
-await txxt.edit_text("𝙎𝙝𝙤𝙬𝙞𝙣𝙜..... 𝙍𝙚𝙨𝙪𝙡𝙩𝙨")
-await txxt.delete()
-now = datetime.now()
+    start = datetime.now()
+    t = "𝙋𝙞𝙣𝙜"
+    txxt = await message.reply(t)
+    await asyncio.sleep(0.25)
+    await txxt.edit_text("𝙋𝙞𝙣𝙜..𝘾𝙤𝙢𝙞𝙣𝙜")
+    await asyncio.sleep(0.35)
+    await txxt.edit_text("𝙋𝙞𝙣𝙜...𝙒𝙖𝙞𝙩")
+    await asyncio.sleep(0.35)
+    await txxt.edit_text("𝙋𝙞𝙣𝙜....𝘾𝙖𝙡𝙘𝙪𝙡𝙖𝙩𝙚𝙙")
+    await asyncio.sleep(0.35)
+    await txxt.edit_text("𝙎𝙝𝙤𝙬𝙞𝙣𝙜..... 𝙍𝙚𝙨𝙪𝙡𝙩𝙨")
+    await txxt.delete()
+    
+    now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     current_date = now.strftime("%Y-%m-%d")
-
+    
     # Respond with the ping message including time and date
     response = f"Pong! Current time: {current_time}, Current date: {current_date}"
     message.reply_text(response)
-
-        
 #  main   
 openai.api_key = OPENAI_KEY
 @Mukesh.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["","+", ".", "/", "-", "?", "$","#","&"]))
