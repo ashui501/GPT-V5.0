@@ -66,21 +66,21 @@ MAIN = [
     ],
     [
         InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"{SOURCE}"),
-        InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{UPDATE_CHNL}"),
+        InlineKeyboardButton(text=" 𓆩⌁ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 ⌁𓆪 ", url=f"https://t.me/{UPDATE_CHNL}"),
     ],
 ]
 X = [
     [
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/{DEVELOPER}"),
+        InlineKeyboardButton(text="𓆩⌁ 𝘿𝙚𝙫𝙡𝙤𝙥𝙚𝙧 ⌁𓆪", url=f"https://t.me/{DEVELOPER}"),
         
-        InlineKeyboardButton(text=" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text=" 𓆩⌁ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 ⌁𓆪 ", url=f"https://t.me/{SUPPORT_GRP}"),
     ]
     ]
     
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+             text="𓆩⌁ 𝘼𝙙𝙙 𝙈𝙚 𝙄𝙣 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ⌁𓆪",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
