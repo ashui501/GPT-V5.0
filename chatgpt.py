@@ -124,6 +124,7 @@ await accha.delete()
     sticker=STKR,
 )
 
+
         await asyncio.sleep(0.3)
         await umm.delete()
         await m.reply_photo(
