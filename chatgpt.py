@@ -29,53 +29,7 @@ Mukesh = Client(
     api_hash = API_HASH ,
     bot_token = BOT_TOKEN
 )
-START = f"""
-🤖 ┏━⋆ ˚｡⋆୨୧˚ 𝓱𝓮𝔂𝓪! ɪ'ᴍ {BOT_NAME} ʙᴏᴛ, ʏᴏᴜʀ ꜰʀɪᴇɴᴅʟʏ ᴀɪ ᴄᴏᴍᴘᴀɴɪᴏɴ! 🌟🤝 ɪ'ᴍ ᴛʜᴇʀᴇ ᴛᴏ ᴀssɪsᴛ ʏᴏᴜ ᴡɪᴛʜ ᴀɴʏᴛʜɪɴɢ ʏᴏᴜ ɴᴇᴇᴅ. ᴜsᴀɢᴇ /ask [ǫᴜᴇʀʏ], ᴀɴᴅ ɪ'ʟʟ ᴘʀᴏᴠɪᴅᴇ ʜᴇʟᴘꜰᴜʟ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀɴᴅ ᴇɴɢᴀɢɪɴɢ ᴄᴏɴᴠᴇʀsᴀᴛɪᴏɴs ˚୨୧⋆｡˚ ⋆━┓
-"""
-xa = bytearray.fromhex("68 74 74 70 73 3A 2F 2F 67 69 74 68 75 62 2E 63 6F 6D 2F 4E 6F 6F 62 2D 6D 75 6B 65 73 68 2F 43 68 61 74 67 70 74 2D 62 6F 74").decode()
-axx = bytearray.fromhex("49  54 7A 5F 4C 45 47 45 4E 44 5F 43 4F 44 45 52").decode()
-xxc = bytearray.fromhex("4D 52 5F 53 55 4B 4B 55 4E").decode()
-SOURCE = xa
-UPDATE_CHNL = xxc
-DEVELOPER = axx
-SOURCE_TEXT = f"""
-╔╦═══════════════╦╗
-ʜᴇʏ, ɪ'ᴍ [{BOT_NAME}]
-ᴛʜᴀɴᴋs ғᴏʀ ʏᴏᴜʀ ɪɴᴛᴇʀᴇsᴛ ɪɴ ᴏᴜʀ ʙᴏᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʙᴜᴛ ɪᴛ's ᴘʀɪᴠᴀᴛᴇ ғᴏʀ sᴏᴍᴇ ʀᴇᴀsᴏɴ.
-Pᴏᴡᴇʀᴇᴅ ʙʏ :-
-╚╩═══════════════╩╝
 
-╾⎾ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ Jᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ⏋╼
-"""
-
-x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
-g=choice(x)
-MAIN = [
-    [
-        InlineKeyboardButton(text="𓆩⌁ 𝘿𝙚𝙫𝙡𝙤𝙥𝙚𝙧 ⌁𓆪", url=f"https://t.me/{DEVELOPER}"),
-        InlineKeyboardButton(text=" 𓆩⌁ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 ⌁𓆪 ", url=f"https://t.me/{SUPPORT_GRP}"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="𓆩⌁ 𝘼𝙙𝙙 𝙈𝙚 𝙄𝙣 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ⌁𓆪",
-            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="𓆩⌁ 𝙐𝙨𝙖𝙜𝙚 ⌁𓆪", callback_data="HELP"),
-    ],
-    [
-        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"{SOURCE}"),
-        InlineKeyboardButton(text=" 𓆩⌁ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 ⌁𓆪 ", url=f"https://t.me/{UPDATE_CHNL}"),
-    ],
-]
-X = [
-    [
-        InlineKeyboardButton(text="𓆩⌁ 𝘿𝙚𝙫𝙡𝙤𝙥𝙚𝙧 ⌁𓆪", url=f"https://t.me/{DEVELOPER}"),
-        
-        InlineKeyboardButton(text=" 𓆩⌁ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 ⌁𓆪 ", url=f"https://t.me/{SUPPORT_GRP}"),
-    ]
-    ]
     
 PNG_BTN = [
     [
